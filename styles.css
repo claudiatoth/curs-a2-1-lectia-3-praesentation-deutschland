@@ -1534,3 +1534,57 @@ body {
     /* Evită break-uri inestetice în mijlocul tabelelor/cardurilor */
     .theory-box, .example-box, .theory-table, .sub-section { page-break-inside: avoid; break-inside: avoid; }
 }
+
+/* ============================================
+   CAST BANNER — 6 personaje compacte la început
+   (imagini mici, 6 per rând pe desktop, 3 pe mobile)
+   ============================================ */
+.cast-banner {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10B981;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px 0;
+    text-align: center;
+}
+.cast-banner h4 {
+    color: #065f46;
+    margin: 0 0 12px;
+    font-size: 1.1rem;
+}
+.cast-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.cast-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 4px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.cast-card img {
+    width: 60px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 4px;
+}
+.cast-card .name {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #065f46;
+    line-height: 1.2;
+}
+.cast-card .detail {
+    font-size: 0.65rem;
+    color: #6b7280;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+@media (max-width: 768px) {
+    .cast-grid { grid-template-columns: repeat(3, 1fr); }
+}
