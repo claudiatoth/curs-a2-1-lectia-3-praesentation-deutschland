@@ -130,7 +130,7 @@ function buildVerbs() {
             '</div>' +
             '<div class="sub-section-content" id="verb-' + i + '">' +
             tenseTable('Präsens (prezent)', v.praes) +
-            tenseTable('Präteritum (imperfect / mai mult ca perfect)', v.praet) +
+            tenseTable('Präteritum (imperfect / timp scris)', v.praet) +
             perfektCompact(v) +
             (v.note ? '<div class="theory-box" style="background:#fef3c7;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
             '</div></div>';
