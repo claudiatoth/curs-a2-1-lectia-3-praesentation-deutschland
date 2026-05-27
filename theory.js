@@ -149,11 +149,11 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Direcția</th><th>Forma cu prepoziție</th><th>Traducere RO</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>der Norden</strong></td><td class="verb">im Norden</td><td class="ro-text">în nord</td></tr>
-                    <tr><td><strong>der Süden</strong></td><td class="verb">im Süden</td><td class="ro-text">în sud</td></tr>
-                    <tr><td><strong>der Osten</strong></td><td class="verb">im Osten</td><td class="ro-text">în est</td></tr>
-                    <tr><td><strong>der Westen</strong></td><td class="verb">im Westen</td><td class="ro-text">în vest</td></tr>
-                    <tr><td><strong>die Mitte</strong></td><td class="verb">in der Mitte</td><td class="ro-text">în mijloc / centru</td></tr>
+                    <tr><td><strong>der Norden</strong> (substantiv invariabil — direcție)</td><td class="verb">im Norden</td><td class="ro-text">nordul (fără plural — direcție cardinală unică)</td></tr>
+                    <tr><td><strong>der Süden</strong> (substantiv invariabil — direcție)</td><td class="verb">im Süden</td><td class="ro-text">sudul (fără plural)</td></tr>
+                    <tr><td><strong>der Osten</strong> (substantiv invariabil — direcție)</td><td class="verb">im Osten</td><td class="ro-text">estul (fără plural)</td></tr>
+                    <tr><td><strong>der Westen</strong> (substantiv invariabil — direcție)</td><td class="verb">im Westen</td><td class="ro-text">vestul (fără plural)</td></tr>
+                    <tr><td><strong>die Mitte · die Mitten</strong> (rar la plural)</td><td class="verb">in der Mitte</td><td class="ro-text">mijlocul / centrul (pluralul DE „die Mitten" doar pentru centre fizice multiple)</td></tr>
                 </tbody>
             </table>
 
@@ -293,14 +293,14 @@ const theoryHTML = `
             <table class="theory-table">
                 <thead><tr><th>Verb (infinitiv)</th><th>Substantiv (das)</th><th>Traducere RO</th></tr></thead>
                 <tbody>
-                    <tr><td class="verb">lernen</td><td class="verb">das Lernen</td><td class="ro-text">învățatul</td></tr>
-                    <tr><td class="verb">lesen</td><td class="verb">das Lesen</td><td class="ro-text">cititul</td></tr>
-                    <tr><td class="verb">schreiben</td><td class="verb">das Schreiben</td><td class="ro-text">scrisul</td></tr>
-                    <tr><td class="verb">sprechen</td><td class="verb">das Sprechen</td><td class="ro-text">vorbitul</td></tr>
-                    <tr><td class="verb">essen</td><td class="verb">das Essen</td><td class="ro-text">mâncatul / mâncarea</td></tr>
-                    <tr><td class="verb">trinken</td><td class="verb">das Trinken</td><td class="ro-text">băutul</td></tr>
-                    <tr><td class="verb">recherchieren</td><td class="verb">das Recherchieren</td><td class="ro-text">cercetatul / documentarea</td></tr>
-                    <tr><td class="verb">präsentieren</td><td class="verb">das Präsentieren</td><td class="ro-text">prezentatul</td></tr>
+                    <tr><td class="verb">lernen</td><td class="verb">das Lernen (sg tantum)</td><td class="ro-text">învățatul (nominalizările = mereu sg tantum în uz comun)</td></tr>
+                    <tr><td class="verb">lesen</td><td class="verb">das Lesen (sg tantum)</td><td class="ro-text">cititul</td></tr>
+                    <tr><td class="verb">schreiben</td><td class="verb">das Schreiben (sg tantum)</td><td class="ro-text">scrisul</td></tr>
+                    <tr><td class="verb">sprechen</td><td class="verb">das Sprechen (sg tantum)</td><td class="ro-text">vorbitul</td></tr>
+                    <tr><td class="verb">essen</td><td class="verb">das Essen · die Essen (rar pl)</td><td class="ro-text">mâncatul (acțiune) / mâncarea · mâncărurile (Pl pentru mai multe feluri)</td></tr>
+                    <tr><td class="verb">trinken</td><td class="verb">das Trinken (sg tantum)</td><td class="ro-text">băutul</td></tr>
+                    <tr><td class="verb">recherchieren</td><td class="verb">das Recherchieren (sg tantum)</td><td class="ro-text">cercetatul / documentarea</td></tr>
+                    <tr><td class="verb">präsentieren</td><td class="verb">das Präsentieren (sg tantum)</td><td class="ro-text">prezentatul</td></tr>
                 </tbody>
             </table>
 
